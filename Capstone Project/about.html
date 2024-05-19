@@ -1,20 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
+  <html lang="en">
+  <header>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard App</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Dashboard</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="ourteam.html">Our Team</a></li>
-        </ul>
-      </nav>
-    </header>
+    <title>Dashboard | Team 3 Palembang</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </header>
+    <body>
+    <div class="container">
+    <nav>
+      <ul>
+        <li><div class="logo">
+          <span >Dashboard Vending Machine</span>
+        </div>
+        </li> 
+          <!-- <img src="/logo.jpg" alt="">
+          <span class="nav-item">DashBoard Vending Machine</span> -->
+        </li>
+        <li><a href="index.html">
+          <i class="fas fa-home" class="active"></i>
+          <span class="nav-item">Home</span>
+
+
+      </a></li>
+        <li><a href="ourteam.html">
+          <i class="fas fa-user"></i>
+          <span class="nav-item">Team Profile</span>
+        </a></li>
+        
+         <li><a href="about.html">
+          <i class="fas fa-info-circle"></i>
+          <span class="nav-item">About us</span>
+        </a></li>
+      </ul>
+   
+    </nav>
+  </header>
+  <section class="main">
+    <h2>About us</h2>
+    <p>Welcome to Dashboard App, your go-to platform for visualizing data and making informed decisions. At Dashboard App, we are dedicated to providing powerful yet user-friendly tools for businesses and individuals alike</p>
+    <p>Our team consists of experienced professionals in the fields of software development, data analysis, and user experience design. Together, we strive to create intuitive and effective solutions to help you unlock the full potential of your data.
+    <p>Whether you're a small startup or a large enterprise, Dashboard App is here to support your data visualization needs. Get in touch with us today to learn more about how we can help you succeed</p>
+    
+    <!-- <section class = "product">
+        <h2>Product Terjual by Rqty</h2>
+        <br />
+        <div>
+          <canvas id="myChart1"></canvas>
+        </div>
+      </section>
+      <section class = "Transaksi">
+        <h2>Total Transaksi Product by Transaction</h2>
+        <br />
+        <div>
+          <canvas id="myChart2"></canvas>
+        </div>
+      </section> -->
+   
+  </section>
+
+    <!-- <footer>
+      <p>&copy; 2024 Team 3 - Section Palembang</p>
+    </footer> -->
+
+    <script src="script.js"></script>
   </body>
 </html>
