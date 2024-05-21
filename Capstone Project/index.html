@@ -1,65 +1,68 @@
-<span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
-  <html lang="en">
-  <header>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard | Team 3 Palembang</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Font Awesome Cdn Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  </header>
-    <body>
+  </head>
+  <body>
     <div class="container">
-    <nav>
-      <ul>
-        <li><div class="logo">
-          <span >Dashboard Vending Machine</span>
-        </div>
-        </li> 
-          <!-- <img src="/logo.jpg" alt="">
-          <span class="nav-item">DashBoard Vending Machine</span> -->
-        </li>
-        <li><a href="index.html">
-          <i class="fas fa-home" class="active"></i>
-          <span class="nav-item">Home</span>
-
-
-      </a></li>
-        <li><a href="ourteam.html">
-          <i class="fas fa-user"></i>
-          <span class="nav-item">Team Profile</span>
-        </a></li>
-        
-         <li><a href="about.html">
-          <i class="fas fa-info-circle"></i>
-          <span class="nav-item">About us</span>
-        </a></li>
-      </ul>
-   
-    </nav>
-  </header>
-  <section class="main">
-      <section class = "product">
-        <h2>Product Terjual by Rqty</h2>
+      <nav>
+        <ul>
+          <li>
+            <div class="logo">
+              <img src="./images/logo.png" alt="" />
+              <span>Dashboard Vending Machine</span>
+            </div>
+          </li>
+          <li>
+            <a href="index.html" class="active">
+              <i class="fas fa-home"></i>
+              <span class="nav-item">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="teamprofil.html">
+              <i class="fas fa-user"></i>
+              <span class="nav-item">Team Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              <i class="fas fa-info-circle"></i>
+              <span class="nav-item">About Us</span>
+            </a>
+          </li>
+        </ul>
+        <footer>
+          <p>&copy; 2024 Team 3 - Section Palembang</p>
+        </footer>
+      </nav>
+      <section class="main">
+        <section class="product">
+          <h2>Product Terjual by Rqty</h2>
+          <br />
+          <div>
+            <canvas id="myChart1"></canvas>
+          </div>
+        </section>
         <br />
-        <div>
-          <canvas id="myChart1"></canvas>
-        </div>
+        <section class="transaksi">
+          <h2>Jumlah Category & Data PerCategory</h2>
+          <br />
+          <div>
+            <canvas id="myChart2"></canvas>
+          </div>
+        </section>
       </section>
-      <section class = "Transaksi">
-        <h2>Total Transaksi Product by Transaction</h2>
-        <br />
-        <div>
-          <canvas id="myChart2"></canvas>
-        </div>
-      </section>
-   
-  </section>
-
-    <!-- <footer>
-      <p>&copy; 2024 Team 3 - Section Palembang</p>
-    </footer> -->
-
-    <script src="script.js"></script>
+    </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
