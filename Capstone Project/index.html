@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard | Team 3 Palembang</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -14,7 +13,7 @@
   </head>
   <body>
     <div class="container">
-      <nav>
+      <div class="navbar">
         <ul>
           <li>
             <div class="logo">
@@ -41,28 +40,37 @@
             </a>
           </li>
         </ul>
-        <footer>
-          <p>&copy; 2024 Team 3 - Section Palembang</p>
-        </footer>
-      </nav>
-      <section class="main">
-        <section class="product">
-          <h2>Product Terjual by Rqty</h2>
-          <br />
+      </div>
+      <div class="content">
+        <div class="section">
+          <h3>Produk Paling Laku Selama Tahun 2022</h3>
           <div>
             <canvas id="myChart1"></canvas>
           </div>
-        </section>
-        <br />
-        <section class="transaksi">
-          <h2>Jumlah Category & Data PerCategory</h2>
-          <br />
+        </div>
+        <div class="section">
+          <h3>Kategori Paling Laku Selama Tahun 2022</h3>
           <div>
             <canvas id="myChart2"></canvas>
           </div>
-        </section>
-      </section>
+        </div>
+        <div class="section">
+          <h3>Lokasi Dengan Penjualan Terbanyak Selama Tahun 2022</h3>
+          <div>
+            <canvas id="myChart3"></canvas>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Tipe Pembayaran Paling Banyak Selama Tahun 2022</h3>
+          <div>
+            <canvas id="myChart4"></canvas>
+          </div>
+        </div>
+      </div>
     </div>
+    <footer class="footer">
+      <p>&copy; 2024 Team 3 - Section Palembang</p>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>
